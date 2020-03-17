@@ -1,0 +1,173 @@
+int led_builtin=D7;
+
+
+
+
+
+void setup() {
+
+	pinMode(led_builtin, OUTPUT);
+
+}
+
+
+
+
+
+void loop() {
+	
+	// To blink the LED, first we'll turn it on...for C
+	digitalWrite(led_builtin, HIGH);
+	delay(1000);
+
+    digitalWrite(led_builtin, LOW);
+	delay(500);
+	
+	digitalWrite(led_builtin, HIGH);
+	delay(500);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(500);
+    
+    digitalWrite(led_builtin, HIGH);
+    delay(1000);
+    
+    digitalWrite(led_builtin, LOW);
+    delay(500);
+    
+    digitalWrite(led_builtin, HIGH);
+    delay(500);
+    
+    digitalWrite(led_builtin, LOW);
+    delay(2000);
+    
+    
+	//To blink the LED, second we'll turn it on...for H
+	digitalWrite(led_builtin, HIGH);
+	delay(500);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(500);
+    
+    digitalWrite(led_builtin, HIGH);
+	delay(500);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(500);
+    
+    digitalWrite(led_builtin, HIGH);
+	delay(500);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(500);
+    
+    digitalWrite(led_builtin, HIGH);
+	delay(500);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(2000);
+    
+    
+    //To blink the LED, third we'll turn it on...for A
+    digitalWrite(led_builtin, HIGH);
+	delay(500);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(500);
+    
+    digitalWrite(led_builtin, HIGH);
+	delay(1000);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(2000);
+    
+    
+	//To blink the LED, next we'll turn it on...for I
+	digitalWrite(led_builtin, HIGH);
+	delay(500);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(500);
+    
+    digitalWrite(led_builtin, HIGH);
+	delay(500);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(2000);
+    
+    
+    //To blink the LED, next we'll turn it on...for T
+    digitalWrite(led_builtin, HIGH);
+	delay(1000);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(2000);
+    
+    
+    //To blink the LED, next we'll turn it on...for A
+    digitalWrite(led_builtin, HIGH);
+	delay(500);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(500);
+    
+    digitalWrite(led_builtin, HIGH);
+	delay(1000);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(2000);
+    
+    
+    //To blink the LED, next we'll turn it on...for N
+    digitalWrite(led_builtin, HIGH);
+	delay(1000);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(500);
+    
+    digitalWrite(led_builtin, HIGH);
+	delay(500);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(2000);
+    
+    
+    //To blink the LED, next we'll turn it on...for Y
+    digitalWrite(led_builtin, HIGH);
+	delay(1000);
+
+    digitalWrite(led_builtin, LOW);
+	delay(500);
+	
+	digitalWrite(led_builtin, HIGH);
+	delay(500);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(500);
+    
+    digitalWrite(led_builtin, HIGH);
+    delay(1000);
+    
+    digitalWrite(led_builtin, LOW);
+    delay(500);
+    
+    digitalWrite(led_builtin, HIGH);
+    delay(1000);
+    
+    digitalWrite(led_builtin, LOW);
+    delay(2000);
+    
+    
+    //To blink the LED, next we'll turn it on...for A
+    digitalWrite(led_builtin, HIGH);
+	delay(500);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(500);
+    
+    digitalWrite(led_builtin, HIGH);
+	delay(1000);
+	
+	digitalWrite(led_builtin, LOW);
+    delay(2000);
+}
